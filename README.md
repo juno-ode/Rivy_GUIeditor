@@ -1,28 +1,29 @@
 # Rivy_GUIeditor
 This is Rivy's GUI engine editor 
 
-The Rivy Game Engine-editor Completion Check List to release 
+The Rivy Game Engine-editor Completion List
 ---
 you can download the project manager if whanted go to the releases and click on one of them
 ---
 
 | **Category**                     | **Done / Total** | **Completion %** |
 | -------------------------------- | ---------------- | ---------------- |
-| **ECS Setup**                    | 4 / 9            | 44%              |
+| **ECS Setup**                    | 8 / 9            | **88.9%**        |
 | **Entity Creation & Management** | 0 / 5            | 0%               |
-| **Camera & Navigation**          | 1 / 6            | 16.7%            |
-| **File Explorer**                | 2 / 6            | 33.3%            |
+| **Camera & Navigation**          | 1 / 6            | **16.7%**        |
+| **File Explorer**                | 2 / 6            | **33.3%**        |
 | **Scene Management**             | 0 / 3            | 0%               |
 | **Asset Management**             | 0 / 6            | 0%               |
 | **GUI & UI Systems**             | 0 / 6            | 0%               |
 | **Editor Mode**                  | 0 / 5            | 0%               |
-| **Rendering & Visualization**    | 1 / 6            | 16.7%            |
+| **Rendering & Visualization**    | 1 / 6            | **16.7%**        |
 | **Scripting & Automation**       | 0 / 4            | 0%               |
 | **Tools & Utilities**            | 0 / 5            | 0%               |
 | **Advanced Features**            | 0 / 3            | 0%               |
 
 
-✅ Overall Progress: 8 / 58 → ~13.8% complete
+✅ Overall Progress: 12 / 58 → ~20.7% complete for realease
+
 
 ---
 (` ~ `) means that it is done example ~added saying hi 
@@ -47,9 +48,9 @@ Show entity IDs and names (with color coding based on entity type).
 
 ~Display components attached to selected entities (e.g., Position, Cube, etc.).
 
-Show component details (e.g., type, value).
+~Show component details (e.g., type, value).
 
-Entity Creation & Management
+~Entity Creation & Management
 
 Add entities to the world (with different components like Cube, Plane, Camera).
 
@@ -59,7 +60,7 @@ Modify entity components (e.g., change position, size, color).
 
 Prefab system for reusing entities (e.g., save & load preset configurations).
 
-Camera & Navigation
+~Camera & Navigation
 
 ~First-person camera using Raylib's camera system (WASD, mouse look).
 
