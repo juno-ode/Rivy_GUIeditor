@@ -16,13 +16,13 @@ you can download the project manager if whanted go to the releases and click on 
 | **Asset Management**             | 0 / 6            | 0%               |
 | **GUI & UI Systems**             | 0 / 6            | 0%               |
 | **Editor Mode**                  | 0 / 5            | 0%               |
-| **Rendering & Visualization**    | 0 / 6            | 0%               |
+| **Rendering & Visualization**    | 1 / 6            | 0%               |
 | **Scripting & Automation**       | 0 / 4            | 0%               |
 | **Tools & Utilities**            | 0 / 5            | 0%               |
 | **Advanced Features**            | 0 / 3            | 0%               |
 
 
-✅ Overall Progress: 7 / 58 → ~12% complete
+✅ Overall Progress: 8 / 58 → ~13.8% complete
 
 ---
 (` ~ `) means that it is done example ~added saying hi 
@@ -129,7 +129,7 @@ Real-time updates for component changes during runtime.
 
 Rendering & Visualization
 
-Raylib integration for 3D rendering (cubes, planes, etc.).
+~Raylib integration for 3D rendering (cubes, planes, etc.).
 
 Debug draw modes (e.g., draw bounding boxes, grid).
 
