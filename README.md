@@ -1,8 +1,8 @@
 # Rivy_GUIeditor
 This is Rivy's GUI engine editor 
 
-Check List
-
+my Check List to release
+` ~ ` means that it is done example ~added saying hi 
 Editor Base Features
 
 ECS Setup:
