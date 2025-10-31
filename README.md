@@ -19,13 +19,13 @@ Implement systems to process components in the ECS world (e.g., physics, renderi
 
 ~Display list of entities in the current world.
 
-~Show entity IDs and names (with color coding based on entity type).
+Show entity IDs and names (with color coding based on entity type).
 
 ~Selectable entities for inspection.
 
 ~Display components attached to selected entities (e.g., Position, Cube, etc.).
 
-~Show component details (e.g., type, value).
+Show component details (e.g., type, value).
 
 Entity Creation & Management
 
