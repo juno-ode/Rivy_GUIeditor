@@ -16,7 +16,7 @@ you can download the project manager if whanted go to the releases and click on 
 | **Asset Management**             | 0 / 6            | 0%               |
 | **GUI & UI Systems**             | 0 / 6            | 0%               |
 | **Editor Mode**                  | 0 / 5            | 0%               |
-| **Rendering & Visualization**    | 1 / 6            | 0%               |
+| **Rendering & Visualization**    | 1 / 6            | 16.7%            |
 | **Scripting & Automation**       | 0 / 4            | 0%               |
 | **Tools & Utilities**            | 0 / 5            | 0%               |
 | **Advanced Features**            | 0 / 3            | 0%               |
