@@ -2,7 +2,9 @@
 This is Rivy's GUI engine editor 
 
 my Check List to release
-` ~ ` means that it is done example ~added saying hi 
+---
+(` ~ `) means that it is done example ~added saying hi 
+---
 Editor Base Features
 
 ECS Setup:
