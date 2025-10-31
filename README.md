@@ -3,6 +3,26 @@ This is Rivy's GUI engine editor
 
 my Check List to release you can download the project manager if whanted go to the releases and click on one of them
 ---
+
+| **Category**                     | **Done / Total** | **Completion %** |
+| -------------------------------- | ---------------- | ---------------- |
+| **ECS Setup**                    | 4 / 9            | 44%              |
+| **Entity Creation & Management** | 0 / 5            | 0%               |
+| **Camera & Navigation**          | 1 / 6            | 16.7%            |
+| **File Explorer**                | 2 / 6            | 33.3%            |
+| **Scene Management**             | 0 / 3            | 0%               |
+| **Asset Management**             | 0 / 6            | 0%               |
+| **GUI & UI Systems**             | 0 / 6            | 0%               |
+| **Editor Mode**                  | 0 / 5            | 0%               |
+| **Rendering & Visualization**    | 0 / 6            | 0%               |
+| **Scripting & Automation**       | 0 / 4            | 0%               |
+| **Tools & Utilities**            | 0 / 5            | 0%               |
+| **Advanced Features**            | 0 / 3            | 0%               |
+
+
+✅ Overall Progress: 7 / 58 → ~12% complete
+
+---
 (` ~ `) means that it is done example ~added saying hi 
 ---
 Editor Base Features
