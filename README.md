@@ -1,7 +1,7 @@
 # Rivy_GUIeditor
 This is Rivy's GUI engine editor 
 
-The Rivy-engine-editor Completion Check List to release 
+The Rivy Game Engine-editor Completion Check List to release 
 ---
 you can download the project manager if whanted go to the releases and click on one of them
 ---
