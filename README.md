@@ -3,8 +3,8 @@ This is Rivy's GUI engine editor
 
 The Rivy Game Engine-editor Completion List
 ---
-you can download the project manager if whanted go to the releases and click on one of them
----
+
+
 
 
 <img width="1918" height="1009" alt="Screenshot from 2025-11-03 12-24-11" src="https://github.com/user-attachments/assets/d0cb3a8e-db24-431e-8a9e-2ee5f2b4021b" />
