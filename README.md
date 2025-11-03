@@ -12,7 +12,8 @@ The Rivy Game Engine-editor Completion List
 <img width="1918" height="1009" alt="Screenshot from 2025-11-03 12-29-57" src="https://github.com/user-attachments/assets/a2a3d28d-b744-4566-895a-12eed5e8e9f6" />
 
 🛠 Editor Development Progress
-Overall Progress: 15 / 58 → ~25.9%
+Overall Progress: 17 / 64 → ~26.6% complete
+
 ---
 ECS Setup [██████████] 100%
 
@@ -108,9 +109,9 @@ Editor Mode [░░░░░░░░░░] 0%
 
  Run-time debugging
 
- Pause/play modes
+ ~Pause/play modes
 
- Console log for errors & debug output
+ ~Console log for errors & debug output
 
  Real-time updates for component changes
 
@@ -158,5 +159,3 @@ Advanced Features [░░░░░░░░░░] 0%
 
  Real-time network sync for multiplayer testing
 
-✅ This layout clearly shows what’s done (~) and what remains ([ ]).
-The [████░░░░░░] bars give a visual sense of completion per category.
