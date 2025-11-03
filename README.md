@@ -59,9 +59,9 @@ Show entity IDs and names (with color coding based on entity type).
 
 ~Entity Creation & Management
 
-Add entities to the world (with different components like Cube, Plane, Camera).
+~Add entities to the world (with different components like Cube, Plane, Camera).
 
-Remove entities from the world.
+~Remove entities from the world.
 
 Modify entity components (e.g., change position, size, color).
 
@@ -79,7 +79,7 @@ Entity selection via raycasting from camera to scene.
 
 Camera modes: First person, third person, orthographic view.
 
-File Explorer
+~File Explorer
 
 ~Browse project files (e.g., assets, scripts).
 
@@ -117,7 +117,7 @@ GUI & UI Systems
 
 ImGui-based UI for editor interface.
 
-Dockable windows for different editor panels (e.g., World Inspector, File Explorer, Scene).
+[X] Dockable windows for different editor panels (e.g., World Inspector, File Explorer, Scene).
 
 Custom controls (e.g., sliders for properties, buttons for actions).
 
