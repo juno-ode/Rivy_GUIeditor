@@ -11,169 +11,151 @@ The Rivy Game Engine-editor Completion List
 
 <img width="1918" height="1009" alt="Screenshot from 2025-11-03 12-29-57" src="https://github.com/user-attachments/assets/a2a3d28d-b744-4566-895a-12eed5e8e9f6" />
 
+🛠 Editor Development Progress
+Overall Progress: 15 / 58 → ~25.9%
+ECS Setup [██████████] 100%
 
+~Integrate Bevy ECS for entity and component management
 
-| **Category**                     | **Done / Total** | **Completion %** |
-| -------------------------------- | ---------------- | ---------------- |
-| **ECS Setup**                    | 9 / 9            | **100%**         |
-| **Entity Creation & Management** | 2 / 5            | **40%**          |
-| **Camera & Navigation**          | 1 / 6            | **16.7%**        |
-| **File Explorer**                | 2 / 6            | **33.3%**        |
-| **Scene Management**             | 0 / 3            | 0%               |
-| **Asset Management**             | 0 / 6            | 0%               |
-| **GUI & UI Systems**             | 0 / 6            | 0%               |
-| **Editor Mode**                  | 0 / 5            | 0%               |
-| **Rendering & Visualization**    | 1 / 6            | **16.7%**        |
-| **Scripting & Automation**       | 0 / 4            | 0%               |
-| **Tools & Utilities**            | 0 / 5            | 0%               |
-| **Advanced Features**            | 0 / 3            | 0%               |
+~Define components (Position, Velocity, Cube, Plane, Camera)
 
-✅ Overall Progress: 15 / 58 → ~25.9% complete for realease
-
-
----
-(` ~ `) means that it is done example ~added saying hi 
----
-Editor Base Features
-
-ECS Setup:
-
-Integrate Bevy ECS for entity and component management.
-
-Define components (e.g., Position, Velocity, Cube, Plane, Camera).
-
-Implement systems to process components in the ECS world (e.g., physics, rendering, input systems).
+~Implement systems (physics, rendering, input)
 
 ~World Inspector
 
-~Display list of entities in the current world.
+~Display list of entities
 
-Show entity IDs and names (with color coding based on entity type).
+~Selectable entities for inspection
 
-~Selectable entities for inspection.
+~Show components and details
 
-~Display components attached to selected entities (e.g., Position, Cube, etc.).
+Entity Creation & Management [████░░░░░░] 40%
 
-~Show component details (e.g., type, value).
+~Add entities to the world (Cube, Plane, Camera)
 
-~Entity Creation & Management
+~Remove entities
 
-~Add entities to the world (with different components like Cube, Plane, Camera).
+Modify entity components (position, size, color)
 
-~Remove entities from the world.
+Prefab system for reusing entities
 
-Modify entity components (e.g., change position, size, color).
+ Save & load preset configurations
 
-Prefab system for reusing entities (e.g., save & load preset configurations).
+Camera & Navigation [█░░░░░░░░░] 16.7%
 
-~Camera & Navigation
+~First-person camera (WASD, mouse look)
 
-~First-person camera using Raylib's camera system (WASD, mouse look).
+ Free movement & collision detection
 
-Free movement and collision detection for camera.
+ Camera controls (zoom, rotate)
 
-Camera controls (e.g., zoom, rotate).
+ Entity selection via raycasting
 
-Entity selection via raycasting from camera to scene.
+ Camera modes (First/Third/Orthographic)
 
-Camera modes: First person, third person, orthographic view.
+File Explorer [██░░░░░░░░] 33.3%
 
-~File Explorer
+~Browse project files
 
-~Browse project files (e.g., assets, scripts).
+~Open and edit files (scripts, shaders)
 
-Open and edit files (e.g., scripts, shaders).
+ Create, delete, rename files
 
-Create, delete, and rename files.
+ Preview files (textures, models)
 
-Preview files (e.g., textures, models).
+ Navigation system
 
-~Navigation system for moving between directories.
+ File type filters
 
-File type filters (e.g., show only .txt, .shader, .model files).
+Scene Management [░░░░░░░░░░] 0%
 
-Scene Management
+ Load & save scenes
 
-Load and save scenes (ECS world states).
+ Import/export entities (JSON/YAML)
 
-Import/export entities (e.g., to/from JSON or YAML).
+ Undo/redo functionality
 
-Undo/redo functionality for scene editing.
+Asset Management [░░░░░░░░░░] 0%
 
-Asset Management
+ Asset pipeline for textures, models, audio
 
-Asset pipeline for textures, models, audio, etc.
+ Texture atlas generation
 
-Texture atlas generation for sprites.
+ 3D model import (.obj, .fbx, .gltf)
 
-3D model import (e.g., .obj, .fbx, .gltf).
+ Shader editor with live preview
 
-Shader editor with live preview.
+ Audio system (load, play, manipulate)
 
-Audio system (load, play, and manipulate audio assets).
+ Asset versioning
 
-GUI & UI Systems
+GUI & UI Systems [░░░░░░░░░░] 0%
 
-ImGui-based UI for editor interface.
+ ImGui-based editor interface
 
-[X] Dockable windows for different editor panels (e.g., World Inspector, File Explorer, Scene).
+ Dockable windows for editor panels
 
-Custom controls (e.g., sliders for properties, buttons for actions).
+ Custom controls (sliders, buttons)
 
-Live editing of component properties in the GUI.
+ Live editing of component properties
 
-UI layout system for flexibility (adjustable panels, resizable windows).
+ Flexible UI layout (resizable panels)
 
-Editor Mode
+ Themes / style customization
 
-Run-time debugging (inspect ECS entities during gameplay).
+Editor Mode [░░░░░░░░░░] 0%
 
-Pause/play modes for inspecting entities while the game is running.
+ Run-time debugging
 
-Console log for error messages and debug output.
+ Pause/play modes
 
-Real-time updates for component changes during runtime.
+ Console log for errors & debug output
 
-Rendering & Visualization
+ Real-time updates for component changes
 
-~Raylib integration for 3D rendering (cubes, planes, etc.).
+ Editor shortcuts & hotkeys
 
-Debug draw modes (e.g., draw bounding boxes, grid).
+Rendering & Visualization [█░░░░░░░░░] 16.7%
 
-Entity gizmos (e.g., position handles, rotation/scale handles for entities).
+~Raylib integration for 3D rendering
 
-Viewport controls (zoom, move, reset view).
+ Debug draw modes (bounding boxes, grid)
 
-Wireframe mode for visualizing the structure.
+ Entity gizmos (position/rotation/scale handles)
 
-Scripting & Automation
+ Viewport controls (zoom, move, reset view)
 
-Scripting support (e.g., Python, Lua) to control entities and behaviors.
+ Wireframe mode
 
-Script editor with syntax highlighting, error checking.
+Scripting & Automation [░░░░░░░░░░] 0%
 
-Custom script binding for ECS components (e.g., attach scripts to entities).
+ Scripting support (Python, Lua)
 
-Automation tools (e.g., macros, batch processes for entity manipulation).
+ Script editor with syntax highlighting
 
-Tools & Utilities
+ Script binding to ECS components
 
-Profiler to track performance (FPS, memory usage).
+ Automation tools (macros, batch processes)
 
-Entity search (filter entities by name, type).
+Tools & Utilities [░░░░░░░░░░] 0%
 
-Undo/redo stack for editor actions.
+ Profiler (FPS, memory usage)
 
-Build & deployment system for game export.
+ Entity search & filtering
 
-Asset bundling for efficient packaging.
+ Undo/redo stack
 
-Advanced Features (Future Enhancements)
+ Build & deployment system
 
-Multi-user editor for collaborative game development.
+ Asset bundling
 
-VR/AR support for immersive development environments.
+Advanced Features [░░░░░░░░░░] 0%
 
-Real-time network sync for multiplayer game testing.
+ Multi-user collaborative editing
 
-This checklist outlines a comprehensive game engine editor based on Raylib and Bevy ECS, helping you organize tasks and keep track of features while developing!
+ VR/AR support
+
+ Real-time network sync for multiplayer testing
+
+✅ This layout clearly shows what’s done (~) and what remains ([ ]).
+The [████░░░░░░] bars give a visual sense of completion per category.
