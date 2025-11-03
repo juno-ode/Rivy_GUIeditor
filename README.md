@@ -15,8 +15,8 @@ The Rivy Game Engine-editor Completion List
 
 | **Category**                     | **Done / Total** | **Completion %** |
 | -------------------------------- | ---------------- | ---------------- |
-| **ECS Setup**                    | 8 / 9            | **88.9%**        |
-| **Entity Creation & Management** | 0 / 5            | 0%               |
+| **ECS Setup**                    | 9 / 9            | **100%**         |
+| **Entity Creation & Management** | 2 / 5            | **40%**          |
 | **Camera & Navigation**          | 1 / 6            | **16.7%**        |
 | **File Explorer**                | 2 / 6            | **33.3%**        |
 | **Scene Management**             | 0 / 3            | 0%               |
@@ -28,8 +28,7 @@ The Rivy Game Engine-editor Completion List
 | **Tools & Utilities**            | 0 / 5            | 0%               |
 | **Advanced Features**            | 0 / 3            | 0%               |
 
-
-✅ Overall Progress: 12 / 58 → ~20.7% complete for realease
+✅ Overall Progress: 15 / 58 → ~25.9% complete for realease
 
 
 ---
