@@ -13,6 +13,7 @@ The Rivy Game Engine-editor Completion List
 
 🛠 Editor Development Progress
 Overall Progress: 15 / 58 → ~25.9%
+---
 ECS Setup [██████████] 100%
 
 ~Integrate Bevy ECS for entity and component management
