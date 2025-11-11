@@ -5,6 +5,7 @@ The Rivy Game Engine-editor Completion List
 ---
 
 
+<img width="1920" height="994" alt="Screenshot from 2025-11-11 07-37-32" src="https://github.com/user-attachments/assets/d7fe29fb-66dd-448b-8f26-b7e9cb0e78c7" />
 
 
 <img width="1918" height="1009" alt="Screenshot from 2025-11-03 12-24-11" src="https://github.com/user-attachments/assets/d0cb3a8e-db24-431e-8a9e-2ee5f2b4021b" />
